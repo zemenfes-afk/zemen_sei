@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeeee;
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: right;
+}
+
+#header-img {
+    width: 20%;
+}
+
+#header {
+    width: 100%;
+    min-height: 20vh;
+    background-color: red;
+}
