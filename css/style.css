@@ -15,7 +15,13 @@ body {
 }
 
 #header {
-    position: relative;
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    justify-content: space-around;
+    background-color: #eee;
+    width: 100%;
 }
 
 nav {
@@ -50,6 +56,7 @@ nav {
 
 section {
     text-align: center;
+    margin-top: 8%;
 }
 
 input[type="email"] {
@@ -78,7 +85,7 @@ section #submit {
 
 #features {
     display: flex;
-
+    text-align: left;
 }
 
 #content {
@@ -98,6 +105,10 @@ section #submit {
 
 @media (max-width: 700px) {
 
+    section {
+        margin-top: 70%;
+    }
+
     #header-img {
         margin-top: 15px;
         width: 50vh;
@@ -113,9 +124,40 @@ section #submit {
         align-items: center;
         text-align: center;
         padding: 0 100px;
+        justify-content: center;
     }
 
     nav li {
         padding-bottom: 5px;
+        align-items: center;
     }
+
+    #container {
+        width: 100%;
+        font-size: 15px;
+        text-align: left;
+        margin: 10% 0px;
+    }
+
+    #content h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #features {
+        flex-direction: column;
+        text-align: left;
+        justify-content: center;
+        text-align: center;
+        padding: 10% 0;
+    }
+
+    #icon {
+        display: none;
+    }
+
+
 }
