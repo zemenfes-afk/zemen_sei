@@ -79,13 +79,15 @@ section #submit {
 
 #container {
     max-width: 1000px;
-    width: 100%;
+    width: 90%;
     margin: 10% 20%;
 }
 
 #features {
     display: flex;
     text-align: left;
+    width: 100%;
+    transition: 1s;
 }
 
 #content {
@@ -103,6 +105,17 @@ section #submit {
     margin: 10px;
 }
 
+#how-it-works {
+    margin: 10% 16%;
+    width: 100%;
+    align-items: center;
+}
+
+iframe {
+    width: 60%;
+    align-items: center;
+}
+
 @media (max-width: 700px) {
 
     section {
@@ -114,6 +127,16 @@ section #submit {
         width: 50vh;
         position: relative;
         height: 30px;
+    }
+
+    #how-it-works {
+        margin: 10% 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    iframe {
+        width: 100%;
     }
 
     nav {
