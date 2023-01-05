@@ -106,7 +106,7 @@ section #submit {
 }
 
 #how-it-works {
-    margin: 10% 16%;
+    margin: 10% 0%;
     width: 100%;
     align-items: center;
 }
@@ -116,10 +116,52 @@ iframe {
     align-items: center;
 }
 
+#pricing {
+    display: flex;
+    margin: 10% 10%;
+}
+
+#item_prices {
+    max-height: 60vh;
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 1%;
+    border-radius: 2%;
+}
+
+#item_prices .item-head {
+    padding: 15px 10px;
+    text-align: center;
+    background-color: #dddddd;
+    font-weight: bold;
+}
+
+#item_prices .item-body {
+    padding: 3%;
+    text-align: center;
+}
+
+.item-body ol li {
+    padding: 3%;
+    list-style: none;
+}
+
+.item-body #item-button {
+    padding: 4%;
+    width: 140px;
+    background-color: #f1c40f;
+    border: none;
+    font-size: 17px;
+}
+
 @media (max-width: 700px) {
 
     section {
         margin-top: 70%;
+    }
+
+    #header {
+        width: 100%;
     }
 
     #header-img {
@@ -182,5 +224,14 @@ iframe {
         display: none;
     }
 
+
+    #pricing {
+        margin: 12% 3%;
+        flex-direction: column;
+    }
+
+    #item_prices {
+        margin: 3% 2%;
+    }
 
 }
