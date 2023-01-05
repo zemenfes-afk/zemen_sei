@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" />
   </head>
 
   <body>
@@ -26,27 +27,64 @@
 
     <header id="header">
 
-      <nav id="nav-bar">
-        <a href=""><img src="img/product-logo.png" id="header-img"></a>
-        <ul>
-          <li><a href="" id="nav-link">Features</a></li>
-          <li><a href="" id="nav-link">How It Works</a></li>
-          <li><a href="" id="nav-link">Prices</a></li>
-        </ul>
+      <nav>
+        <img src="img/product-logo.png" id="header-img">
+        <div class="nav-link">
+          <ul>
+            <li><a id="nav-link" href="#features">Features</a></li>
+            <li><a id="nav-link" href="#how-it-works">How It Works</a></li>
+            <li><a id="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 
     <section>
-      <h3>Handcrafted, home-made masterpieces</h3>
-      <form id="">
-        <input type="email" id="email" placeholder="Enter your email address" required>
-        <button type="submit"><a href="https://www.freecodecamp.com/email-submit">GET STARTED</a></button>
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form id="" action="https://www.freecodecamp.com/email-submit">
+        <input type="email" id="email" placeholder="Enter your email address" required><br />
+        <input type="submit" id="submit" value="GET STARTED">
       </form>
-
-
     </section>
 
+    <div id="container">
+      <div id="features">
+        <div id="icon">
+          <span class="fa fa-fire fa-3x"></span>
+        </div>
+        <div id="content">
+          <h1>Premium Materials</h1>
+          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+            purchase.</p>
+        </div>
 
+      </div>
+
+      <div id="features">
+        <div id="icon">
+          <span class="fa fa-truck fa-3x"></span>
+        </div>
+        <div id="content">
+          <h1>Premium Materials</h1>
+          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+            purchase.</p>
+        </div>
+
+      </div>
+
+      <div id="features">
+        <div id="icon">
+          <span class="fa fa-battery-full fa-3x"></span>
+        </div>
+        <div id="content">
+          <h1>Premium Materials</h1>
+          <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
+            purchase.</p>
+        </div>
+
+      </div>
+
+    </div>
 
 
 
