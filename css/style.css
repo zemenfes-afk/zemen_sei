@@ -154,21 +154,6 @@ iframe {
     font-size: 17px;
 }
 
-footer {
-    min-height: 15vh;
-    width: 100%;
-    background-color: #dddddd;
-    display: flex;
-    text-align: right;
-    position: relative;
-    padding: 1%;
-}
-
-footer ul li {
-    display: inline-block;
-    text-align: right;
-
-}
 
 @media (max-width: 700px) {
 
